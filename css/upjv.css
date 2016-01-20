@@ -1,0 +1,263 @@
+body{
+	margin-top:0px;
+}
+
+/******************/
+
+h1, .h1 {
+  font-family: arvoregular, Tahoma, Verdana, Segoe, sans-serif;
+  color: #148dc8;
+  padding: 5px;
+}
+
+/******************/
+
+#bandeau {
+   background-color: #148dc8;
+ }
+ 
+#bandeau > span {
+    display: inline-block;
+    font-size: 0.85714em;
+    font-weight: 500;
+    margin: 0 0 -.40em;
+    vertical-align: bottom;
+}
+
+#bandeau > span {
+    font-size: 2.14286em;
+}
+
+#bandeau > span > span {
+    font: 500 1em sansationbold, Tahoma, Verdana, Segoe, sans-serif;
+}
+
+#bandeau {
+    background-color: #148dc8;
+    background: #148cbc;
+    color: #fff;
+    font-family: sansationregular, Tahoma, Verdana, Segoe, sans-serif;
+    margin: 0 0 2.5em;
+    overflow: hidden;
+    padding: 0 1em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#logo {
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    font: 500 2.85714em/1 sansationbold, Tahoma, Verdana, Segoe, sans-serif;
+    margin: -.12em 0 -.21em;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+#reseaux_sociaux {
+    bottom: .2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 1em;
+}
+
+#reseaux_sociaux li {
+    display: inline-block;
+    margin: 0 0 0 .25em;
+}
+
+#logo {
+	font-size: 6.21429em;
+}
+
+#block-upjv-account-menu{
+    margin-top: -30px;
+}
+
+/******************/
+
+.navbar-header{
+    float: right;
+}
+
+#portails_ent li:not(:first-child):before {
+    content: "|";
+    margin: 0 .25em;
+}
+
+ul#portails_ent {
+    margin-right: 2px;
+}
+
+#portails_ent {
+    color: #148cbc;
+    float: right;
+    margin: -2.5em 0 0;
+    position: relative;
+    z-index: 50;
+    list-style: none;
+    padding: 0;
+}
+
+#portails_ent li{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font: 500 0.92857em Verdana, Geneva, "Bitstream Vera Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+#portails_ent a {
+    text-decoration: none;
+}
+
+/******************/
+
+.navbar-default {
+    background-color: inherit;
+    border: none;
+}
+
+#menu_principal ul em a {
+    background-color: #148dc8;
+    color: #fff;
+}
+
+#menu_principal {
+    font: 500 1em arvoregular, Tahoma, Verdana, Segoe, sans-serif;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+	text-align: center;
+}
+
+#menu_principal > li:first-child {
+    border: none;
+}
+
+#menu_principal > li {
+    font-size: 1.5em;
+}
+
+#menu_principal > li > ul {
+    list-style: none;
+    font-size: .85714em;
+}
+
+#menu_principal li ul {
+    display: none;
+    padding: 10px;
+}
+
+#menu_principal li:hover ul {
+    display: block;
+    z-index: 100;
+}
+
+#menu_principal li a.is-active + ul {
+    display: block;
+    z-index: 100;
+}
+
+#menu_principal ul li a{
+    color: #fff;
+    padding: 10px;
+}
+
+#menu_principal ul {
+    background-color: #666666;
+    text-align:center;
+    border-top: .25em solid;
+    color: #fff;
+    display: none;
+    font-size: .88889em;
+    left: 0;
+    line-height: normal;
+    margin-top: .25em;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+#menu_principal li:hover li a:hover, #menu_principal ul a:hover, #menu_principal ul a:focus{
+    background-color: #148dc8;
+    color: #fff;
+}
+
+#menu_principal ul li:not(:first-child):before {
+    content: "|";
+    display: inline-block;
+}
+
+#menu_principal > li > a:hover, #menu_principal li:hover > a{
+    color: #666666;
+    text-decoration:none;
+}
+
+#menu_principal li:hover li a:hover, #menu_principal ul a:hover, #menu_principal ul a:focus {
+    background-color: #148dc8;
+    color: #fff;
+}
+
+#menu_principal ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+/**************/
+
+#menu_pied_page {
+    background-color: #148dc8;
+    color: #fff;
+}
+
+#menu_pied_page {
+    background: #148cbc;
+    clear: both;
+    color: #fff;
+    list-style: none;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#menu_pied_page li {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+#menu_pied_page li:not(:first-child):before {
+    content: "|";
+    margin: 0 .5em;
+}
+
+#menu_pied_page a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu_pied_page a:hover {
+    text-decoration: underline;
+}
+
+/**********************/
+
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: -5%;
+}
+
+.carousel-control {
+    top: 40%;
+    height: 20%;
+}
+
+.item img{
+    width: 100%;
+}

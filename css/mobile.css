@@ -1,0 +1,78 @@
+@media (max-width: 768px){
+    #bandeau span {
+        display: none;
+    }
+
+    .navbar-header{
+        float: none;
+    }
+
+    ul#portails_ent {
+        margin-right: 15px;
+    }
+
+    #menu_principal {
+        background: #e2e2e2;
+        width: 100%;
+    }
+
+    #menu_principal > li {
+        border-top: 1px solid #148cbc;
+        font-size: 1.28571em;
+        display: block;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #menu_principal li ul {
+        display: block;
+        padding: 10px;
+    }
+
+    #menu_principal ul {
+        border-top: none;
+        z-index: 10;
+    }
+
+    #menu_principal ul li {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid white;
+    }
+
+    #menu_principal li:hover li a:hover, #menu_principal ul a:hover, #menu_principal ul a:focus{
+        background: none;
+        color: #fff;
+    }
+
+    #menu_principal ul li:not(:first-child):before {
+        content: "";
+        display: block;
+    }
+
+    #menu_principal > li > a:hover,
+    #menu_principal li:hover > a{
+        color: white;
+        text-decoration:none;
+    }
+
+    #block-upjv-account-menu{
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 769px){
+    .navbar-nav {
+        float: none;
+    }
+
+    #menu_principal > li {
+        border-left: 1px solid #148cbc;
+        display: inline-block;
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+

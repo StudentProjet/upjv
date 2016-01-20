@@ -1,0 +1,10 @@
+base:
+  version: 1.x
+  css:
+    theme:
+      css/font-awesome.css: {}
+      css/fonts.css: {}
+      css/upjv.css: {}
+      css/mobile.css: {}
+  js:
+    js/upjv.js: {}
