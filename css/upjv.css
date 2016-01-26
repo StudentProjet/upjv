@@ -261,3 +261,41 @@ ul#portails_ent {
 .item img{
     width: 100%;
 }
+
+.carousel-caption{
+    background: #148cbc;
+    background: rgba(20, 140, 188, 0.5);
+    left: 0;
+    min-height: 20%;
+    position: absolute;
+    width: 100%;
+    z-index: 300;
+}
+
+/*********************/
+
+h2 {
+    border-bottom: 3em solid #148cbc;
+    color: #148cbc;
+    font: 500 1.78571em arvoregular, Rockwell, rokkittregular, Tahoma, Verdana, Segoe, sans-serif;
+    padding: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+h2:before {
+    border-left: .625em solid transparent;
+    border-right: .625em solid transparent;
+    border-top: .625em solid #fff;
+    bottom: -.6em;
+    content: "";
+    left: .625em;
+    line-height: 0;
+    position: absolute;
+    width: 0;
+}
+
+h2 span {
+    display: block;
+    margin: 0 .5em;
+}
