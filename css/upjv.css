@@ -73,7 +73,7 @@ h1, .h1 {
 }
 
 #block-upjv-account-menu{
-    margin-top: -30px;
+    margin-top: -60px;
 }
 
 /******************/
@@ -275,7 +275,7 @@ ul#portails_ent {
 /*********************/
 
 h2 {
-    border-bottom: 3em solid #148cbc;
+    border-bottom: 1.5em solid #148cbc;
     color: #148cbc;
     font: 500 1.78571em arvoregular, Rockwell, rokkittregular, Tahoma, Verdana, Segoe, sans-serif;
     padding: 0;
@@ -298,4 +298,17 @@ h2:before {
 h2 span {
     display: block;
     margin: 0 .5em;
+}
+
+.red-h2{
+    border-bottom: 1.5em solid #c50c02;
+    color: #c50c02;
+}
+
+.page-header {
+    margin-top: 15px;
+}
+
+.breadcrumb {
+    margin-top: 20px;
 }
