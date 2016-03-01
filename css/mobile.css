@@ -25,7 +25,7 @@
     }
 
     #menu_principal li ul {
-        display: block;
+        display: none;
         padding: 10px;
     }
 
@@ -58,7 +58,7 @@
     }
 
     #block-upjv-account-menu{
-        margin-top: 25%;
+        margin-top: 0%;
     }
 
     #menu_pied_page li {
@@ -70,6 +70,14 @@
     #menu_pied_page li:not(:first-child):before {
         content: "";
         margin: 0;
+    }
+
+    #reseaux_sociaux img{
+        width: 80%;
+    }
+
+    #logo {
+        font-size: 5.21429em;
     }
 }
 
