@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body{
 	margin-top:0px;
 }
@@ -311,4 +313,17 @@ h2 span {
 
 .breadcrumb {
     margin-top: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul.puce li:before {
+    background: url('../img/puce.svg') no-repeat 0 50% #148cbc;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    margin: 0 0.6em 0 0;
+    width: 10px;
 }
