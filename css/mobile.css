@@ -79,6 +79,16 @@
     #logo {
         font-size: 5.21429em;
     }
+
+    #pied_page_rubriques > div {
+        text-align: center;
+        width: 60%;
+        float: none;
+    }
+
+    #pied_page_logos {
+        margin-top: -35%;
+    }
 }
 
 @media (min-width: 769px){

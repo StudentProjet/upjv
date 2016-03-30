@@ -61,12 +61,12 @@
  * @ingroup templates
  */
 #}
-{% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+{% set container = theme.settings.fluid_container ? 'container-fluid' : '' %}
 
 {# upjv_area #}
 {% if page.upjv_area %}
     {% block upjv_area %}
-        <div class="upjv_area container">
+        <div class="upjv_area">
             {{ page.upjv_area }}
         </div>
     {% endblock %}
@@ -79,7 +79,7 @@
         set navbar_classes = [
         'navbar',
         theme.settings.navbar_inverse ? 'navbar-inverse' : 'navbar-default',
-        theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
+        theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : '',
         ]
         %}
         <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">

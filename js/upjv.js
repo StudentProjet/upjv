@@ -2,9 +2,8 @@ var $ = jQuery;
 
 $(document).ready(function() {
 
-    /*if($(window).width < 769){
-        $("#menu_principal li a").bind("click", function(){
-            $(this).parents().closest("ul").toggle();
-        });
-    }*/
+    $("a[href='#page']").bind('click', function(){
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
 });
