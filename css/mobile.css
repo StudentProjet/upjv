@@ -89,6 +89,15 @@
     #pied_page_logos {
         margin-top: -35%;
     }
+
+    #bandeau_visuel {
+        padding: 0 0 20.7%;
+        background-size: contain;
+    }
+
+    #bandeau_visuel svg {
+        max-height: 82.5%;
+    }
 }
 
 @media (min-width: 769px){
