@@ -177,6 +177,11 @@ ul#portails_ent {
     z-index: 100;
 }
 
+#menu_principal li ul li a.is-active{
+    background-color: #148dc8;
+    color: #fff;
+}
+
 #menu_principal li a.is-active + ul {
     display: block;
     z-index: 100;
